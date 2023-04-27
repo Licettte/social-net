@@ -3,7 +3,7 @@
 $\text{\ \color{lightblue}\   Использовано:\}$  
 
 <details>
-<summary>Spring Web MVC</summary>
+<summary>Spring Boot</summary>
 
 </details>
 
