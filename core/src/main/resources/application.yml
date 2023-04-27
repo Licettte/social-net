@@ -1,0 +1,37 @@
+auth:
+  secret: socialnet
+
+server:
+  port: 8086
+  servlet:
+    session:
+      tracking-modes: cookie
+
+  db:
+    port: http://db-service:8081
+
+
+  frontend:
+    host: http://frontend:8098
+
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    username: noreplaycomand28@gmail.com
+    password: svsbxajrmngmshhs
+    port: 587
+    url: http://frontend:8098/change-password/
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+
+cloudinary:
+  cloud-name:
+  api-key:
+  api-secret:
