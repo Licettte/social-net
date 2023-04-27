@@ -3,9 +3,10 @@
 <details>
 <summary>Spring Web MVC</summary>
 
-```
+
 Spring MVC — структура для создания слабо связанных веб-приложений, разделяющая основные аспекты их разработки: объекты, бизнес-логику и внешний вид программы.
-```
+
+  
 Типы полей: [ссылка](https://docs.liquibase.com/concepts/changelogs/attributes/column.html)
 </details>
 
