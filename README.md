@@ -39,7 +39,21 @@ jOOQ — это DSL (предметно-ориентированный язык)
 <details>
 
 <summary>Docker, Docker-compose</summary>
-Использовал для deploy приложения на облачном сервере. Создал докер образы из сервисов, запушил из в dockerhub и развернул в одном контейнере docker compose. После развертывания БД, поднимал контейнер Liquibase и накатывал миграции для создания структуры БД.
+КОМАНДЫ
+docker image list — просматривает текущие образы (image).
+docker ps -a — посмотреть все контейнеры, вместе с остановленными.
+docker image rm  - удалить образ (если ранее был запущен контейнер с образом - надо сначала удалить контейнер, а потом образ).
+
+пример:  docker image rm 58e62c26b5a1
+
+docker rm — удаляет контейнер.
+
+пример:  docker rm ID_or_Name ID_or_Name
+
+docker image rm $(docker image list -q) — удалить все образы.
+docker rm $(docker ps -qa) - удалить все контейнеры.
+Удалить docker\textcolor{red}{\text{Удалить docker}}Удалить docker
+пример: sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli sudo docker ps -a\textcolor{red}{\text{пример:  sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli sudo docker ps -a}}пример: sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli sudo docker ps -a
 </details>
 
 
