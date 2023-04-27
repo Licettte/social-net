@@ -1,7 +1,7 @@
 ## Social Net 
 
 
-<details>
+<Spring Web MVC>
 Spring Web MVC
 
 ```
